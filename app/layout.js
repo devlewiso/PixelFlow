@@ -17,7 +17,7 @@ export const metadata = {
   description:
     "PixelFlow is your go-to solution for converting images to WebP format with efficiency and ease.",
   openGraph: {
-    url: "https://flowfix.netlify.app/",
+    url: "https://pixelflow.neuralcodelab.com/",
     type: "website",
     title: "PixelFlow - Image Optimization Made Simple",
     description: "PixelFlow is your go-to solution for converting images to WebP format with efficiency and ease.",
@@ -29,15 +29,15 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    domain: "flowfix.netlify.app",
-    url: "https://flowfix.netlify.app/",
+    domain: "pixelflow.neuralcodelab.com",
+    url: "https://pixelflow.neuralcodelab.com/",
     title: "PixelFlow - Image Optimization Made Simple",
     description: "PixelFlow is your go-to solution for converting images to WebP format with efficiency and ease.",
     images: [
       "https://opengraph.b-cdn.net/production/images/c4295f43-e479-40e8-917a-adfb0a0deac8.png?token=ssggz-q374la0QFEbPv0_ixzpTxRy0EZKI5feptuxeU&height=923&width=1181&expires=33281171301",
     ],
   },
-  metadataBase: new URL("https://flowfix.netlify.app/"),
+  metadataBase: new URL("https://pixelflow.neuralcodelab.com/"),
 };
 
 export default function RootLayout({ children }) {
