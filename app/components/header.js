@@ -62,14 +62,10 @@ export default function Header() {
           <nav className="hidden md:flex space-x-6">
             <Link href="/" passHref legacyBehavior>
               <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-                Home
+                Inicio
               </a>
             </Link>
-            <Link href="/about" passHref legacyBehavior>
-              <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-                About
-              </a>
-            </Link>
+
           </nav>
 
           {/* Botón del Menú Móvil */}
@@ -92,7 +88,7 @@ export default function Header() {
           <nav className="md:hidden mt-4 pb-4">
             <Link href="/" passHref legacyBehavior>
               <a className="block py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition duration-150 ease-in-out">
-                Home
+                Inicio
               </a>
             </Link>
             <Link href="/about" passHref legacyBehavior>
